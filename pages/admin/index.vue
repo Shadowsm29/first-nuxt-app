@@ -14,6 +14,8 @@
 <script>
 export default {
 	layout: "admin",
+	middleware: ['check-auth', 'auth'],
+	
 	components: {
 		'post-preview-list': require('~/components/posts/post-preview-list').default,
 	},

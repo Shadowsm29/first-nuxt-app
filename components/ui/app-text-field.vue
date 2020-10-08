@@ -5,6 +5,7 @@
 		outlined
 		hide-details="auto"
 		@input="valueChanged"
+		:type="type"
 	/>
 </template>
 
@@ -16,6 +17,9 @@ export default {
 		},
 		label: {
 			required: true,
+		},
+		type: {
+			default: "text",
 		},
 	},
 

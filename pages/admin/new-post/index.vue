@@ -10,6 +10,8 @@
 <script>
 export default {
 	layout: "admin",
+	middleware: ['check-auth', 'auth'],
+	
 	components: {
 		'admin-post-form': require('~/components/admin/admin-post-form').default,
 	},
