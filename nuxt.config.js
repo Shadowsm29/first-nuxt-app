@@ -49,7 +49,5 @@ export default {
 	build: {
 	},
 
-	env: {
-		fbApiKey: "AIzaSyDeULUmDOfulg2kLHjjPph4abfjNqp1ZNw",
-	}
+	env: {}
 }
